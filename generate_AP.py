@@ -7,7 +7,7 @@ mode = "AP"
 def AP_rand(mean, stdev):
     return random.randint(0, 19)
 
-if len(sys.argv) != 3:
+if len(sys.argv) != 4:
     print("Usage: %s <lp-file> <num-tasks> <num-objectives>" % (sys.argv[0]))
     sys.exit(-1)
 
