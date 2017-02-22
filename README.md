@@ -11,6 +11,10 @@ your problem.
 Currently, the only known (to the author) solver which handles such files is
 [moip_aira](http://github.com/WPettersson/moip_aira).
 
+If you want to support some other option, feel free to contact author.
+
+The author would also very much like to be a part of any working group developing an open standard for multi-objective problem file formats.
+
 
 Assignment Problems
 -------------------
@@ -39,3 +43,15 @@ Example: ./generate_KP.py KD4D-100.lp 100 4
 
 This will create a knapsack problem with 100 variables and 4 objective
 functions.
+
+
+Travelling Salesman Problem
+---------------------------
+
+Usage: ./generate_TSP.py <lpfile> <num-cities> <num-objectives>
+
+where lpfile is the name of the file you wish to create, num-cities is the number of cities in the problem, and num-objectives is the number of objectives you wish to maximise.
+
+Example: ./generate_TSP.py TSP2_100.lp 100 2
+
+This will generate a travelling salesman problem with 100 cities and 2 objective functions. 
